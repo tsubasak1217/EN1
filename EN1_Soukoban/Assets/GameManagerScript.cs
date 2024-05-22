@@ -83,24 +83,6 @@ public class GameManagerScript : MonoBehaviour {
 			// 更新した結果を出力
 			OutputLog();
 		}
-
-
-		/*field = new GameObject[
-			map.GetLength(0),
-			map.GetLength(1)
-			];*/
-
-		/*for(int i = 0; i < map.GetLength(0); i++) {
-			for(int j = 0; j < map.GetLength(1); j++) {
-				if(map[i, j] == 1) {
-					field[i, j] = Instantiate(
-					   PlayerPrefab,
-						new Vector3(j, map.GetLength(0) - i, 0),
-						Quaternion.identity
-					);
-				}
-			}
-		}*/
 	}
 
 	// 更新した結果を出力する関数
